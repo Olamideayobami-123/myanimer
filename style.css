@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.sky{
+    width: 100%;
+    position: relative;
+}
+
+.houses{
+    position: absolute;
+    top: 10px;
+    right: 0.5px;
+    width: 100%;
+}
+
+.birdfly{
+    position: absolute;
+    top: 1px;
+    right: 100px;
+    width: 180px;
+}
+
+.birdround{
+    position: absolute;
+    top: -15px;
+    left: 500px;
+    width: 150px;
+}
+
+.aeroplane{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    width: 300px;
+    animation: aeroplane 3s linear 2s infinite;
+}
+
+@keyframes aeroplane {
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(-1400px);
+    }
+}
+
+.helicopter{
+    position: absolute;
+    top: 3px;
+    right: 100px;
+    width: 200px;
+    animation: helicopter 5s linear 2s infinite;
+}
+
+@keyframes helicopter {
+    0%{
+        transform: translateX(700px);
+    }
+    100%{
+        transform: translateX(-1500px);
+    }
+}
+
+.female{
+    position: absolute;
+    /* top: 13.5%; */
+    top: 100px;
+    /* left: 100px; */
+    width: 200px;
+    animation: female 10s linear 2s infinite;
+}
+
+@keyframes female {
+    0%{
+        transform: translateX(-1600px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
+
+.man-waving{
+    position: absolute;
+    top: 13.5%;
+    /* left: 100px; */
+    width: 200px;
+    animation: man 12s linear 2s infinite;
+}
+
+@keyframes man{
+    0%{
+        transform: translateX(400px);
+    }
+    100%{
+        transform: translateX(-1700px);
+    }
+}
+
+.road{
+    position: absolute;
+    top: 42%;
+    right: 0.5px;
+    width: 100%;
+    height: 27%;
+    /* height: 200px; */
+}
+
+.streetlight-path{
+    position: absolute;
+    top: 69%;
+    right: 0.5px;
+    width: 100%;
+    /* height: 80px; */
+    height: 7%;
+    background-color: rgb(49, 48, 48);
+}
+
+.police-car{
+    position: absolute;
+    /* top: 210px; */
+    top: 30%;
+    right: 0.5px;
+    width: 250px;
+    animation: police-car 5s linear 2s infinite;
+}
+
+@keyframes police-car{
+    0%{
+        transform: translateX(400px);
+    }
+    100%{
+        transform: translateX(-1600px);
+    }
+}
+
+.bike{
+    position: absolute;
+    top: 180px;
+    right: 0.5px;
+    width: 200px;
+    animation: bike 3.5s linear 2s infinite;
+}
+
+@keyframes bike{
+    0%{
+        transform: translateX(700px);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+
+.blue-truck{
+    position: absolute;
+    top: 250px;
+    right: 0.5px;
+    width: 280px;
+    animation: blue-truck 3.5s linear 2s infinite;
+}
+
+@keyframes blue-truck{
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(-1900px);
+    }
+}
+
+.streetlight{
+    position: absolute;
+    top: 350px;
+    left: 60px;
+    height: 170px;
+}
+
+.streetlight1{
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    height: 170px;
+}
+
+.pole{
+    position: absolute;
+    top: 315px;
+    left: 230px;
+    height: 250px;
+}
+
+.streetlight2{
+    position: absolute;
+    top: 350px;
+    left: 580px;
+    height: 170px;
+}
+
+.streetlight3{
+    position: absolute;
+    top: 350px;
+    right: 480px;
+    height: 170px;
+}
+
+.pole2{
+    position: absolute;
+    top: 315px;
+    right: 80px;
+    height: 250px;
+}
+
+.streetlight4{
+    position: absolute;
+    top: 350px;
+    right: -25px;
+    height: 170px;
+}
+
+.road2{
+    position: absolute;
+    top: 75%;
+    right: 0.5px;
+    width: 100%;
+    height: 25%;
+    /* height: 200px; */
+}
+
+.sportcar{
+    position: absolute;
+    top: 72%;
+    width: 200px;
+    animation: sport-car 2.5s linear 2s infinite;
+}
+
+@keyframes sport-car {
+    0%{
+        transform: translateX(-1600px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
+
+.commercialcar{
+    position: absolute;
+    top: 76%;
+    width: 200px;
+    animation: commercial-car 3.5s linear 2s infinite;
+}
+
+@keyframes commercial-car {
+    0%{
+        transform: translateX(-1700px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
+
+.truck2{
+    position: absolute;
+    top: 76%;
+    width: 200px;
+    animation: truck2 4.5s linear 2s infinite;
+}
+
+@keyframes truck2 {
+    0%{
+        transform: translateX(-1800px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
+
+.bicycle{
+    position: absolute;
+    top: 78%;
+    width: 150px;
+    animation: bicycle 5.5s linear 2s infinite;
+}
+
+@keyframes bicycle {
+    0%{
+        transform: translateX(-1800px);
+    }
+    100%{
+        transform: translateX(500px);
+    }
+}
